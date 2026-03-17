@@ -3,10 +3,20 @@ using UnityEngine;
 
 public class L2_Monster : MonoBehaviour
 {
-    // Start is called once before the first execution of Update after the MonoBehaviour is created
+
     void Start()
     {
-        
+        for(int i = 0; i < 10; i++)
+        {
+            Debug.Log(i);
+        }
+
+        int l = 0;
+        while( l < 10)
+        {
+            l++;
+            Debug.Log(l);
+        }
     }
 
     // Update is called once per frame

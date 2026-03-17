@@ -10,7 +10,6 @@ public class Lecture02 : MonoBehaviour
 
     // 클래스는 변수와 함수가 합쳐져 만들어진 객체이다
 
-
     void Start()
     {
         Human man = new Human();                    // Human 클래스라는 설계도를 사용해 man이라는 객체를 만든다
