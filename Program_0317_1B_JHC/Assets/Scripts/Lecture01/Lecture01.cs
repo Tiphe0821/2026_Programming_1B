@@ -1,8 +1,7 @@
 using UnityEngine;
 
-public class Test : MonoBehaviour
+public class Lecture01 : MonoBehaviour
 {
-    // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
 
@@ -118,11 +117,8 @@ public class Test : MonoBehaviour
         return left / right;
     }
 
-    // Update is called once per frame
     void Update()
     {
         
     }
 }
-  
-

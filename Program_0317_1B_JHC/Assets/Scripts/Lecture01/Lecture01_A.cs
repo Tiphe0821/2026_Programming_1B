@@ -1,8 +1,7 @@
 using UnityEngine;
 
-public class TestScript : MonoBehaviour
+public class Lecture01_A : MonoBehaviour
 {
-    // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
         // 더하기와 빼기가 둘다 작동하는 함수
@@ -21,6 +20,18 @@ public class TestScript : MonoBehaviour
         else
         {
             return left - right;
+        }
+    }
+
+    int MulOrDiv(int left, int right, bool isMul)
+    {
+        if(isMul)
+        {
+            return left * right;
+        }
+        else
+        {
+            return left / right;
         }
     }
 
