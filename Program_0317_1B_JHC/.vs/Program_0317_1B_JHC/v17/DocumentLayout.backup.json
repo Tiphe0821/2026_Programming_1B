@@ -3,11 +3,15 @@
   "WorkspaceRootPath": "D:\\Programing_1B_JHC\\UnderstandingProgramming_Git\\2026_Programming_1B\\Program_0317_1B_JHC\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{BC12BD30-2313-F7C9-D30E-412B4BD7C987}|Assembly-CSharp.csproj|d:\\programing_1b_jhc\\understandingprogramming_git\\2026_programming_1b\\program_0317_1b_jhc\\assets\\scripts\\lecture03\\cardgame.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BC12BD30-2313-F7C9-D30E-412B4BD7C987}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\lecture03\\cardgame.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{BC12BD30-2313-F7C9-D30E-412B4BD7C987}|Assembly-CSharp.csproj|d:\\programing_1b_jhc\\understandingprogramming_git\\2026_programming_1b\\program_0317_1b_jhc\\assets\\scripts\\lecture03\\card.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{BC12BD30-2313-F7C9-D30E-412B4BD7C987}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\lecture03\\card.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{BC12BD30-2313-F7C9-D30E-412B4BD7C987}|Assembly-CSharp.csproj|d:\\programing_1b_jhc\\understandingprogramming_git\\2026_programming_1b\\program_0317_1b_jhc\\assets\\scripts\\lecture03\\lecture03_test.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{BC12BD30-2313-F7C9-D30E-412B4BD7C987}|Assembly-CSharp.csproj|D:\\Programing_1B_JHC\\UnderstandingProgramming_Git\\2026_Programming_1B\\Program_0317_1B_JHC\\assets\\scripts\\lecture03\\lecture03_test.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{BC12BD30-2313-F7C9-D30E-412B4BD7C987}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\lecture03\\lecture03_test.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
@@ -35,19 +39,32 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "CardGame.cs",
+              "DocumentMoniker": "D:\\Programing_1B_JHC\\UnderstandingProgramming_Git\\2026_Programming_1B\\Program_0317_1B_JHC\\Assets\\Scripts\\Lecture03\\CardGame.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Lecture03\\CardGame.cs",
+              "ToolTip": "D:\\Programing_1B_JHC\\UnderstandingProgramming_Git\\2026_Programming_1B\\Program_0317_1B_JHC\\Assets\\Scripts\\Lecture03\\CardGame.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Lecture03\\CardGame.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-24T09:01:30.073Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "Card.cs",
               "DocumentMoniker": "D:\\Programing_1B_JHC\\UnderstandingProgramming_Git\\2026_Programming_1B\\Program_0317_1B_JHC\\Assets\\Scripts\\Lecture03\\Card.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Lecture03\\Card.cs",
               "ToolTip": "D:\\Programing_1B_JHC\\UnderstandingProgramming_Git\\2026_Programming_1B\\Program_0317_1B_JHC\\Assets\\Scripts\\Lecture03\\Card.cs",
               "RelativeToolTip": "Assets\\Scripts\\Lecture03\\Card.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAmAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAADwvx0AAAAKAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-03-24T08:28:12.084Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "Lecture03_Test.cs",
               "DocumentMoniker": "D:\\Programing_1B_JHC\\UnderstandingProgramming_Git\\2026_Programming_1B\\Program_0317_1B_JHC\\Assets\\Scripts\\Lecture03\\Lecture03_Test.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Lecture03\\Lecture03_Test.cs",
@@ -60,19 +77,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "TestArray.cs",
               "DocumentMoniker": "D:\\Programing_1B_JHC\\UnderstandingProgramming_Git\\2026_Programming_1B\\Program_0317_1B_JHC\\Assets\\Scripts\\Lecture03\\TestArray.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Lecture03\\TestArray.cs",
               "ToolTip": "D:\\Programing_1B_JHC\\UnderstandingProgramming_Git\\2026_Programming_1B\\Program_0317_1B_JHC\\Assets\\Scripts\\Lecture03\\TestArray.cs",
               "RelativeToolTip": "Assets\\Scripts\\Lecture03\\TestArray.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAYAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAAZAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-24T07:38:34.404Z"
+              "WhenOpened": "2026-03-24T07:38:34.404Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "Lecture02.cs",
               "DocumentMoniker": "D:\\Programing_1B_JHC\\UnderstandingProgramming_Git\\2026_Programming_1B\\Program_0317_1B_JHC\\Assets\\Scripts\\Lecture02\\Lecture02.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Lecture02\\Lecture02.cs",
@@ -84,7 +102,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "L2_Monster.cs",
               "DocumentMoniker": "D:\\Programing_1B_JHC\\UnderstandingProgramming_Git\\2026_Programming_1B\\Program_0317_1B_JHC\\Assets\\Scripts\\Lecture02\\L2_Monster.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Lecture02\\L2_Monster.cs",
