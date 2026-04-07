@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using TMPro;
+using UnityEngine.UI;
 
 
 public class Card : MonoBehaviour
@@ -10,45 +11,57 @@ public class Card : MonoBehaviour
     public TextMeshProUGUI card;
     public int cardNum;
     public float rotateSpeed;
-    public bool isClick = false;
+
+    public bool isFront = false;
+
+    public bool isMatched = false;
+
+
     public Quaternion flipRotation = Quaternion.Euler(0, 180f, 0);
     public Quaternion originRotation = Quaternion.Euler(0, 0, 0);
+
+    public CardGame cardGame;
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
-        card = GetComponentInChildren<TextMeshProUGUI>();
-
-        cardNum = Random.Range(0, 10);
-
-        card.text = cardNum.ToString();
     }
 
     // Update is called once per frame
     void Update()
     {
-        // 0 => 180 => -180 => 0
-        //if (isClick)
-        //{
-        //    if (transform.eulerAngles.y >= 0 && transform.eulerAngles.y < 180)
-        //    {
-        //        transform.Rotate(0, rotateSpeed * Time.deltaTime, 0);
-        //    }
-        //}
-
-        if(isClick)
+        if(isFront)
         {
-            transform.rotation = Quaternion.Slerp(transform.rotation, flipRotation, rotateSpeed * Time.deltaTime);
+            transform.rotation = Quaternion.Slerp(transform.rotation, originRotation, rotateSpeed * Time.deltaTime);
         }
         else
         {
-            transform.rotation = Quaternion.Slerp(transform.rotation, originRotation, rotateSpeed * Time.deltaTime);
+            transform.rotation = Quaternion.Slerp(transform.rotation, flipRotation, rotateSpeed * Time.deltaTime);
         }
     }
 
     // 카드 돌리기
     public void ClickCard()
     {
-        isClick = !isClick;
+        // if (isMatched) return;
+
+        if (!isMatched)
+        {
+            cardGame.OnClickCard(this);
+            isFront = true;
+        }
+    }
+
+    public void SetCardNum(int newNum)
+    {
+        card = GetComponentInChildren<TextMeshProUGUI>();
+        cardNum = newNum;
+
+        card.text = cardNum.ToString();
+    }
+
+    public void ChangeColor(Color newColor)
+    {
+        GetComponent<Image>().color = newColor;
     }
 }
