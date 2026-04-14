@@ -2,13 +2,16 @@ using System.Collections;
 using System.Collections.Generic;
 using Unity.VisualScripting;
 using UnityEngine;
+using UnityEngine.UIElements;
 
 public class CardGame : MonoBehaviour
 {
     public List<Card> cards;
+    public List<Sprite> sprites;
 
     private Card firstCard = null;
     private Card secondCard = null;
+    private bool isChecking = false;
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
@@ -58,11 +61,15 @@ public class CardGame : MonoBehaviour
         for (int i = 0; i < cards.Count; i++)
         {
             cards[i].SetCardNum(randomPairNum[i]);
+            cards[i].SetImage(sprites[(randomPairNum[i])]);
+
         }
     }
 
     private void CheckCard()
     {
+        isChecking = true;
+
         if(firstCard.cardNum == secondCard.cardNum)
         {
             // 정답
@@ -75,6 +82,8 @@ public class CardGame : MonoBehaviour
 
             firstCard = null;
             secondCard = null;
+
+            isChecking = false;
         }
         else
         {
@@ -86,21 +95,33 @@ public class CardGame : MonoBehaviour
 
     private void HideCard()
     {
-        firstCard.isFront = false;
-        secondCard.isFront = false;
+        firstCard.Flip(false);
+        secondCard.Flip(false);
+
+        isChecking = false;
+
+        firstCard = null;
+        secondCard = null;
     }
 
     public void OnClickCard(Card Card)
     {
         // 카드가 선택되면 호출
 
+        if (isChecking)
+        {
+            return;
+        }
+
         if (firstCard == null)
         {
             firstCard = Card;
+            firstCard.Flip(true);
         }
-        else
+        else if(firstCard != Card)
         {
             secondCard = Card;
+            secondCard.Flip(true);
         }
 
         if(firstCard != null && secondCard != null)
