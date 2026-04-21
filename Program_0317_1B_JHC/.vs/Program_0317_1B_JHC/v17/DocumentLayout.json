@@ -1,14 +1,14 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "D:\\Programing_1B_JHC\\UnderstandingProgramming_Git\\2026_Programming_1B\\Program_0317_1B_JHC\\",
+  "WorkspaceRootPath": "C:\\Users\\namuc\\Desktop\\GitHub_Temp\\2026_Programming_1B\\Program_0317_1B_JHC\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{BC12BD30-2313-F7C9-D30E-412B4BD7C987}|Assembly-CSharp.csproj|D:\\Programing_1B_JHC\\UnderstandingProgramming_Git\\2026_Programming_1B\\Program_0317_1B_JHC\\assets\\scripts\\lecture03\\cardgame.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BC12BD30-2313-F7C9-D30E-412B4BD7C987}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\lecture03\\cardgame.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{BC12BD30-2313-F7C9-D30E-412B4BD7C987}|Assembly-CSharp.csproj|C:\\Users\\namuc\\Desktop\\GitHub_Temp\\2026_Programming_1B\\Program_0317_1B_JHC\\assets\\scripts\\card.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BC12BD30-2313-F7C9-D30E-412B4BD7C987}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\card.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{BC12BD30-2313-F7C9-D30E-412B4BD7C987}|Assembly-CSharp.csproj|d:\\programing_1b_jhc\\understandingprogramming_git\\2026_programming_1b\\program_0317_1b_jhc\\assets\\scripts\\lecture03\\card.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BC12BD30-2313-F7C9-D30E-412B4BD7C987}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\lecture03\\card.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{BC12BD30-2313-F7C9-D30E-412B4BD7C987}|Assembly-CSharp.csproj|c:\\users\\namuc\\desktop\\github_temp\\2026_programming_1b\\program_0317_1b_jhc\\assets\\scripts\\cardgame.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BC12BD30-2313-F7C9-D30E-412B4BD7C987}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\cardgame.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -18,32 +18,32 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "Card.cs",
-              "DocumentMoniker": "D:\\Programing_1B_JHC\\UnderstandingProgramming_Git\\2026_Programming_1B\\Program_0317_1B_JHC\\Assets\\Scripts\\Lecture03\\Card.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\Lecture03\\Card.cs",
-              "ToolTip": "D:\\Programing_1B_JHC\\UnderstandingProgramming_Git\\2026_Programming_1B\\Program_0317_1B_JHC\\Assets\\Scripts\\Lecture03\\Card.cs",
-              "RelativeToolTip": "Assets\\Scripts\\Lecture03\\Card.cs",
-              "ViewState": "AgIAABQAAAAAAAAAAAAAwD0AAAAAAAAAAAAAAA==",
+              "DocumentMoniker": "C:\\Users\\namuc\\Desktop\\GitHub_Temp\\2026_Programming_1B\\Program_0317_1B_JHC\\Assets\\Scripts\\Card.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Card.cs",
+              "ToolTip": "C:\\Users\\namuc\\Desktop\\GitHub_Temp\\2026_Programming_1B\\Program_0317_1B_JHC\\Assets\\Scripts\\Card.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Card.cs",
+              "ViewState": "AgIAADAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-07T08:35:31.892Z",
+              "WhenOpened": "2026-04-21T07:49:01.717Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "CardGame.cs",
-              "DocumentMoniker": "D:\\Programing_1B_JHC\\UnderstandingProgramming_Git\\2026_Programming_1B\\Program_0317_1B_JHC\\Assets\\Scripts\\Lecture03\\CardGame.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\Lecture03\\CardGame.cs",
-              "ToolTip": "D:\\Programing_1B_JHC\\UnderstandingProgramming_Git\\2026_Programming_1B\\Program_0317_1B_JHC\\Assets\\Scripts\\Lecture03\\CardGame.cs",
-              "RelativeToolTip": "Assets\\Scripts\\Lecture03\\CardGame.cs",
-              "ViewState": "AgIAAGgAAAAAAAAAAAAswHoAAAAeAAAAAAAAAA==",
+              "DocumentMoniker": "C:\\Users\\namuc\\Desktop\\GitHub_Temp\\2026_Programming_1B\\Program_0317_1B_JHC\\Assets\\Scripts\\CardGame.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\CardGame.cs",
+              "ToolTip": "C:\\Users\\namuc\\Desktop\\GitHub_Temp\\2026_Programming_1B\\Program_0317_1B_JHC\\Assets\\Scripts\\CardGame.cs",
+              "RelativeToolTip": "Assets\\Scripts\\CardGame.cs",
+              "ViewState": "AgIAAD4AAAAAAAAAAAAAAAwAAAAUAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-07T07:32:30.351Z",
+              "WhenOpened": "2026-04-21T07:48:09.336Z",
               "EditorCaption": ""
             }
           ]
