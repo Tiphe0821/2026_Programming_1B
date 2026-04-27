@@ -230,6 +230,7 @@ RectTransform:
   - {fileID: 35495816}
   - {fileID: 1653661978}
   - {fileID: 1350753834}
+  - {fileID: 1372087670}
   - {fileID: 918367394}
   - {fileID: 2104435126}
   - {fileID: 145826840}
@@ -4411,7 +4412,6 @@ RectTransform:
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 1415856026}
-  - {fileID: 1372087670}
   m_Father: {fileID: 12201306}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
@@ -4567,11 +4567,11 @@ RectTransform:
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 240093242}
-  m_Father: {fileID: 1350753834}
+  m_Father: {fileID: 12201306}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: 250}
+  m_AnchoredPosition: {x: -550, y: -100}
   m_SizeDelta: {x: 200, y: 200}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1372087671
@@ -5576,7 +5576,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 95291023760438247ae8a138b6dbb80e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::CardGame
-  cardPairNum: 20
+  cardPairNum: 14
   cards:
   - {fileID: 39747770}
   - {fileID: 163081614}
