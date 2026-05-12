@@ -77,6 +77,8 @@ public class CardGame : MonoBehaviour
             cards[i].SetImage(sprites[(randomPairNum[i])]);
 
         }
+
+        SoundManager.Instance.PlayeBGMSound();
     }
 
     private void CheckCard()
@@ -130,11 +132,13 @@ public class CardGame : MonoBehaviour
         {
             firstCard = Card;
             firstCard.Flip(true);
+            SoundManager.Instance.PlaySound();
         }
         else if(firstCard != Card)
         {
             secondCard = Card;
             secondCard.Flip(true);
+            SoundManager.Instance.PlaySound();
         }
 
         if(firstCard != null && secondCard != null)
