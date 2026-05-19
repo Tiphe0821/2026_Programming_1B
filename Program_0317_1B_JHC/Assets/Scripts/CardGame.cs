@@ -75,7 +75,6 @@ public class CardGame : MonoBehaviour
             cards[i].gameObject.SetActive(true);
             cards[i].SetCardNum(randomPairNum[i]);
             cards[i].SetImage(sprites[(randomPairNum[i])]);
-
         }
 
         SoundManager.Instance.PlayeBGMSound();

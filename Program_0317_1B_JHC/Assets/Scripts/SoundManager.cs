@@ -10,7 +10,7 @@ public class SoundManager : MonoBehaviour
 
     private AudioSource audioSourceBGM; // 배경음 재생
 
-    void Start()
+    void Awake()
     {
         Instance = this;
         audioSource = gameObject.AddComponent<AudioSource>();
@@ -38,5 +38,38 @@ public class SoundManager : MonoBehaviour
         audioSourceBGM.clip = audioBGMClip;
         audioSourceBGM.loop = true;
         audioSourceBGM.Play();
+    }
+
+    public void OnOffBGM(bool isOn)
+    {
+        if(isOn)
+        {
+            audioSourceBGM.volume = 0.5f ;
+        }
+        else
+        {
+            audioSourceBGM.volume = 0f ;
+        }
+    }
+    public void OnOffFx(bool isOn)
+    {
+        if(isOn)
+        {
+            audioSource.volume = 1f ;
+        }
+        else
+        {
+            audioSource.volume = 0f ;
+        }
+    }
+
+    public void ChangeBGMVolume(float volume)
+    {
+        audioSourceBGM.volume = volume;
+    }
+
+    public void ChangeClickVolume(float volume)
+    {
+        audioSource.volume = volume;
     }
 }
